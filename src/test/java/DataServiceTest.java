@@ -32,7 +32,7 @@ public class DataServiceTest {
         System.out.println(precipitation);
 
         // Validate the values
-        assertTrue("Temperature should be within range", temperature >= -100 && temperature <= 150);
+        assertTrue("Temperature should be within range!", temperature >= -100 && temperature <= 150);
         assertTrue( "Humidity should be within range", humidity >= 0 && humidity <= 100);
         assertTrue("Precipitation should be within range", precipitation >= 0 && precipitation <= 100);
     }
